@@ -1,16 +1,20 @@
 PODS:
+  - HBCDataPersistence (1.0.1):
+    - SAMKeychain (= 1.5.3)
   - SAMKeychain (1.5.3)
 
 DEPENDENCIES:
-  - SAMKeychain (= 1.5.3)
+  - HBCDataPersistence (= 1.0.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - HBCDataPersistence
     - SAMKeychain
 
 SPEC CHECKSUMS:
+  HBCDataPersistence: 46e7aa58640ad1a7710e9db34398ee1dbf8a4145
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
 
-PODFILE CHECKSUM: 50ef13597d9935c4e7219f3fab4b512a254a5c61
+PODFILE CHECKSUM: 04f88040569df6a3f66ce879ef8b93e08ec23343
 
 COCOAPODS: 1.5.3

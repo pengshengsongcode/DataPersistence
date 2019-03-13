@@ -7,82 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39E8225AB579A3E3ACDF62FB44D605EA /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B43D4E91BB1404796F7F8F59DCF64C16 /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		516F5A3731BD90C7701163DB7F0896A4 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 48ADE735418E23F2CC8C04F671134364 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		66C7A474DF0DD0DA19C8D534C4FF99DC /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0995C228FC1B7D4142C5C1BBD937A92E /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		882DF2FB38923FBA319952FEF7B5C0E0 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DF4C29B09B5D606F6A2CB9B35D83A4 /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C0D41FD3A0292352E0010F7D919BB822 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7570261E6ACC7105B21202B26AE43D97 /* Security.framework */; };
-		C4214DC07390DA2BDF66F22D3C9AB75E /* Pods-DataPersistence-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EF8E09440F74B5560FC49475AD439C /* Pods-DataPersistence-dummy.m */; };
-		E35E945110F3BD8CC3D661E4E5FFA680 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDC2E512ACD5CB722F7ADF14560309F /* Foundation.framework */; };
-		E5B57E51ABF4CE95BDB1CC02D7147231 /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A792C64531E0E1BDB513ED163E0DF02 /* SAMKeychain-dummy.m */; };
+		06D1C023124E164D0AD0C48AC7DE7A0F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7570261E6ACC7105B21202B26AE43D97 /* Security.framework */; };
+		166FC8032B310BB7A953B36E89AB76F2 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C28C67DD3FF165BF42A79B9DD7B6058 /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		167EC2ED549D3642F7643401685F0329 /* Pods-HBCDataPersistence-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A1F7A776D67838EE9846E6BE8DDC4D /* Pods-HBCDataPersistence-dummy.m */; };
+		19145CD489ED23C4BB1CCC919740A9E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDC2E512ACD5CB722F7ADF14560309F /* Foundation.framework */; };
+		55882D8F4CF805BF4E38D823EEE1F570 /* HBCDataPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4C40C784242119AF5183F2CD2C8C3 /* HBCDataPersistence.m */; };
+		736F4A0BC57F0E7B620521A742563009 /* HBCDataPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5B094DCE17EAFBECD4801197EA5584 /* HBCDataPersistence.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		749F613D4994FA868D122E835F0E0E47 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 22619991E6F40213DBCCC08C0C3F723E /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E1F1BFA597A8518DEF1626F78B11322 /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0FF2F5FE0793A3FA1F9EB0537E3E33 /* SAMKeychain-dummy.m */; };
+		ABF2E0FDC8781D8C778B23CCCB5E76F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDC2E512ACD5CB722F7ADF14560309F /* Foundation.framework */; };
+		BD7BDF8F5B1E53B7943DBDC8D6353859 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2413B476D836AB2B737319AF60E965 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD477EDFB72918C9FF88F4E7581F72CD /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9250CF12711967218AE1742D6CC344 /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEBD6EBCF763FB23BDDEA8BCBF8D15EB /* HBCDataPersistence-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 308E37EC1F860932A9BA172025790135 /* HBCDataPersistence-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9398A9DDCCC1F57D1BF9F2E57C85346C /* PBXContainerItemProxy */ = {
+		1F3E357207824CD3E26B78BE4D4EBA71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 083BD4F50129F4C753B5904D28405C6B;
+			remoteGlobalIDString = 08CDF4D0533B8F1F2B8B12FFAD665786;
+			remoteInfo = HBCDataPersistence;
+		};
+		6F32194A7D7571554167A84D1F925C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B8DD6250C2F7CBC7074F1F2971F71B;
+			remoteInfo = SAMKeychain;
+		};
+		C94A0DFD62E1021D6A465A3932149CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B8DD6250C2F7CBC7074F1F2971F71B;
 			remoteInfo = SAMKeychain;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0995C228FC1B7D4142C5C1BBD937A92E /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
-		0E1BC99CE8F05EE8D92001E45291AA16 /* Pods-DataPersistence-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DataPersistence-acknowledgements.plist"; sourceTree = "<group>"; };
-		3DCF96419E973C3C41587E991EBD9B0C /* Pods-DataPersistence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataPersistence.debug.xcconfig"; sourceTree = "<group>"; };
-		477501630802C82B13D1242339B64D73 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
-		48ADE735418E23F2CC8C04F671134364 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
-		48EF8E09440F74B5560FC49475AD439C /* Pods-DataPersistence-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DataPersistence-dummy.m"; sourceTree = "<group>"; };
+		13CC6C962892CFE53713610B34910A85 /* HBCDataPersistence.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBCDataPersistence.xcconfig; sourceTree = "<group>"; };
+		18E4C40C784242119AF5183F2CD2C8C3 /* HBCDataPersistence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBCDataPersistence.m; path = HBCDataPersistence/HBCDataPersistence.m; sourceTree = "<group>"; };
+		22619991E6F40213DBCCC08C0C3F723E /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
+		249E50C79F1201AF6F7B83A7C6981389 /* Pods-HBCDataPersistence-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBCDataPersistence-acknowledgements.plist"; sourceTree = "<group>"; };
+		308E37EC1F860932A9BA172025790135 /* HBCDataPersistence-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBCDataPersistence-dummy.m"; sourceTree = "<group>"; };
+		425D5D1876929E1FECD91D6A6B63E80D /* Pods-HBCDataPersistence-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBCDataPersistence-resources.sh"; sourceTree = "<group>"; };
+		5D0FF2F5FE0793A3FA1F9EB0537E3E33 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
+		5E6D985EABCDBB9D74CC0AFD793B855B /* HBCDataPersistence-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBCDataPersistence-prefix.pch"; sourceTree = "<group>"; };
+		603FBA902F6F0688BE6AF5EFF6120EC6 /* libPods-HBCDataPersistence.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HBCDataPersistence.a"; path = "libPods-HBCDataPersistence.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D04A9166D0B00CBB1BB5A6CA0A26BA2 /* libHBCDataPersistence.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHBCDataPersistence.a; path = libHBCDataPersistence.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7570261E6ACC7105B21202B26AE43D97 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		76D8FF74E1C2585E906BD3D7893BEA9C /* Pods-DataPersistence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataPersistence.release.xcconfig"; sourceTree = "<group>"; };
-		8A792C64531E0E1BDB513ED163E0DF02 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
-		92DF4C29B09B5D606F6A2CB9B35D83A4 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		7B5B094DCE17EAFBECD4801197EA5584 /* HBCDataPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBCDataPersistence.h; path = HBCDataPersistence/HBCDataPersistence.h; sourceTree = "<group>"; };
+		81A1F7A776D67838EE9846E6BE8DDC4D /* Pods-HBCDataPersistence-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBCDataPersistence-dummy.m"; sourceTree = "<group>"; };
+		8C28C67DD3FF165BF42A79B9DD7B6058 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		8EA41B335E57304EF7347175F1BC1020 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97C094120CE7C3B67B105ECF81201D04 /* Pods-DataPersistence-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DataPersistence-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A5685F63618FF4636EA8DD2BB834CC31 /* libPods-DataPersistence.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DataPersistence.a"; path = "libPods-DataPersistence.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE2B3B53C752F1E236FE6CBB71C0A7BC /* SAMKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.xcconfig; sourceTree = "<group>"; };
-		B43D4E91BB1404796F7F8F59DCF64C16 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
-		B63E0FE1B8912C2AF270222375DA7E4A /* libSAMKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSAMKeychain.a; path = libSAMKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A239BF58837D9CE83ED0CB8491DC89C1 /* libSAMKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSAMKeychain.a; path = libSAMKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8E43779AC3191694700633811B9342 /* SAMKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.xcconfig; sourceTree = "<group>"; };
+		C885190E84CE4DE49377A449F8B87ED0 /* Pods-HBCDataPersistence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBCDataPersistence.debug.xcconfig"; sourceTree = "<group>"; };
 		CEDC2E512ACD5CB722F7ADF14560309F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0E2162949A3EE843E292951579C57B1 /* Pods-DataPersistence-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataPersistence-resources.sh"; sourceTree = "<group>"; };
-		D528408C609672D91C823C84D306D9C9 /* Pods-DataPersistence-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataPersistence-frameworks.sh"; sourceTree = "<group>"; };
-		F9C24987F49BF813990DFE52B15DB773 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
+		DF2413B476D836AB2B737319AF60E965 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
+		EC9250CF12711967218AE1742D6CC344 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
+		EDBAA821FC20D12AB06FEBDCCA587612 /* Pods-HBCDataPersistence-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBCDataPersistence-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE6D225D4D4A94A3D2D3638BCE1AF779 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
+		F953AB5CD469612127964116D4CAB2CD /* Pods-HBCDataPersistence-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBCDataPersistence-frameworks.sh"; sourceTree = "<group>"; };
+		FBA26ECD3BCE23D96D177B88C357FC8D /* Pods-HBCDataPersistence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBCDataPersistence.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5C74693E265B11973C6EED666B7163AF /* Frameworks */ = {
+		66DFD65125920390C0AA4BCB68FA706B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80240A3946BD875B81B4AD6B8C65AC0C /* Frameworks */ = {
+		9CF9FA58C4472C6EFBD41732BAF00CFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E35E945110F3BD8CC3D661E4E5FFA680 /* Foundation.framework in Frameworks */,
-				C0D41FD3A0292352E0010F7D919BB822 /* Security.framework in Frameworks */,
+				19145CD489ED23C4BB1CCC919740A9E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CC9882215110C9E339CC4AF77F759F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF2E0FDC8781D8C778B23CCCB5E76F0 /* Foundation.framework in Frameworks */,
+				06D1C023124E164D0AD0C48AC7DE7A0F /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		204D579291713CD49CF2185376AD9715 /* Pods-DataPersistence */ = {
+		0F30C7D6814030538DFFE98953B07B7C /* HBCDataPersistence */ = {
 			isa = PBXGroup;
 			children = (
-				97C094120CE7C3B67B105ECF81201D04 /* Pods-DataPersistence-acknowledgements.markdown */,
-				0E1BC99CE8F05EE8D92001E45291AA16 /* Pods-DataPersistence-acknowledgements.plist */,
-				48EF8E09440F74B5560FC49475AD439C /* Pods-DataPersistence-dummy.m */,
-				D528408C609672D91C823C84D306D9C9 /* Pods-DataPersistence-frameworks.sh */,
-				D0E2162949A3EE843E292951579C57B1 /* Pods-DataPersistence-resources.sh */,
-				3DCF96419E973C3C41587E991EBD9B0C /* Pods-DataPersistence.debug.xcconfig */,
-				76D8FF74E1C2585E906BD3D7893BEA9C /* Pods-DataPersistence.release.xcconfig */,
+				7B5B094DCE17EAFBECD4801197EA5584 /* HBCDataPersistence.h */,
+				18E4C40C784242119AF5183F2CD2C8C3 /* HBCDataPersistence.m */,
+				C2C376C629FBCF1C824A4153A2ADC06B /* Support Files */,
 			);
-			name = "Pods-DataPersistence";
-			path = "Target Support Files/Pods-DataPersistence";
+			name = HBCDataPersistence;
+			path = HBCDataPersistence;
+			sourceTree = "<group>";
+		};
+		113E0C240864C0544F3F53DB7F046597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D04A9166D0B00CBB1BB5A6CA0A26BA2 /* libHBCDataPersistence.a */,
+				603FBA902F6F0688BE6AF5EFF6120EC6 /* libPods-HBCDataPersistence.a */,
+				A239BF58837D9CE83ED0CB8491DC89C1 /* libSAMKeychain.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D95B266ABE74B872F0A935070DDABD7 /* SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				DF2413B476D836AB2B737319AF60E965 /* SAMKeychain.h */,
+				22619991E6F40213DBCCC08C0C3F723E /* SAMKeychain.m */,
+				EC9250CF12711967218AE1742D6CC344 /* SAMKeychainQuery.h */,
+				8C28C67DD3FF165BF42A79B9DD7B6058 /* SAMKeychainQuery.m */,
+				6E6C03E7287D53C87026E077DA3351AF /* Resources */,
+				DC8662A02A8BBFFCE77478E2EEB80BA2 /* Support Files */,
+			);
+			name = SAMKeychain;
+			path = SAMKeychain;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -91,20 +143,6 @@
 				547FE7BE59B73C045A10943A669A2D8C /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4A7BD6922BE2D6F9FEB09A03AF2A2C81 /* SAMKeychain */ = {
-			isa = PBXGroup;
-			children = (
-				48ADE735418E23F2CC8C04F671134364 /* SAMKeychain.h */,
-				0995C228FC1B7D4142C5C1BBD937A92E /* SAMKeychain.m */,
-				B43D4E91BB1404796F7F8F59DCF64C16 /* SAMKeychainQuery.h */,
-				92DF4C29B09B5D606F6A2CB9B35D83A4 /* SAMKeychainQuery.m */,
-				9138EC939AE4F9FEC0B88CFB72C01F1B /* Resources */,
-				9B840CF54BEDFBBB4265C54954F765A4 /* Support Files */,
-			);
-			name = SAMKeychain;
-			path = SAMKeychain;
 			sourceTree = "<group>";
 		};
 		547FE7BE59B73C045A10943A669A2D8C /* iOS */ = {
@@ -116,90 +154,134 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		573987EE4188BFC563246CC148ABECAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9850194776C266C22459CB2DD02E1318 /* Pods-HBCDataPersistence */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		62F9E2C8AFDF7CBAB1FDC22A3CEF54D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F30C7D6814030538DFFE98953B07B7C /* HBCDataPersistence */,
+				3D95B266ABE74B872F0A935070DDABD7 /* SAMKeychain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E6C03E7287D53C87026E077DA3351AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D225D4D4A94A3D2D3638BCE1AF779 /* SAMKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				BF4BDEF7DEC1C21CD808737A4ACDE8FB /* Pods */,
-				F5D202693D8683E2E50F40398E2500D3 /* Products */,
-				C4DA5E63FD6790206381EC6343B968C0 /* Targets Support Files */,
+				62F9E2C8AFDF7CBAB1FDC22A3CEF54D0 /* Pods */,
+				113E0C240864C0544F3F53DB7F046597 /* Products */,
+				573987EE4188BFC563246CC148ABECAC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9138EC939AE4F9FEC0B88CFB72C01F1B /* Resources */ = {
+		9850194776C266C22459CB2DD02E1318 /* Pods-HBCDataPersistence */ = {
 			isa = PBXGroup;
 			children = (
-				F9C24987F49BF813990DFE52B15DB773 /* SAMKeychain.bundle */,
+				EDBAA821FC20D12AB06FEBDCCA587612 /* Pods-HBCDataPersistence-acknowledgements.markdown */,
+				249E50C79F1201AF6F7B83A7C6981389 /* Pods-HBCDataPersistence-acknowledgements.plist */,
+				81A1F7A776D67838EE9846E6BE8DDC4D /* Pods-HBCDataPersistence-dummy.m */,
+				F953AB5CD469612127964116D4CAB2CD /* Pods-HBCDataPersistence-frameworks.sh */,
+				425D5D1876929E1FECD91D6A6B63E80D /* Pods-HBCDataPersistence-resources.sh */,
+				C885190E84CE4DE49377A449F8B87ED0 /* Pods-HBCDataPersistence.debug.xcconfig */,
+				FBA26ECD3BCE23D96D177B88C357FC8D /* Pods-HBCDataPersistence.release.xcconfig */,
 			);
-			name = Resources;
+			name = "Pods-HBCDataPersistence";
+			path = "Target Support Files/Pods-HBCDataPersistence";
 			sourceTree = "<group>";
 		};
-		9B840CF54BEDFBBB4265C54954F765A4 /* Support Files */ = {
+		C2C376C629FBCF1C824A4153A2ADC06B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE2B3B53C752F1E236FE6CBB71C0A7BC /* SAMKeychain.xcconfig */,
-				8A792C64531E0E1BDB513ED163E0DF02 /* SAMKeychain-dummy.m */,
-				477501630802C82B13D1242339B64D73 /* SAMKeychain-prefix.pch */,
+				13CC6C962892CFE53713610B34910A85 /* HBCDataPersistence.xcconfig */,
+				308E37EC1F860932A9BA172025790135 /* HBCDataPersistence-dummy.m */,
+				5E6D985EABCDBB9D74CC0AFD793B855B /* HBCDataPersistence-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HBCDataPersistence";
+			sourceTree = "<group>";
+		};
+		DC8662A02A8BBFFCE77478E2EEB80BA2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC8E43779AC3191694700633811B9342 /* SAMKeychain.xcconfig */,
+				5D0FF2F5FE0793A3FA1F9EB0537E3E33 /* SAMKeychain-dummy.m */,
+				8EA41B335E57304EF7347175F1BC1020 /* SAMKeychain-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SAMKeychain";
 			sourceTree = "<group>";
 		};
-		BF4BDEF7DEC1C21CD808737A4ACDE8FB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4A7BD6922BE2D6F9FEB09A03AF2A2C81 /* SAMKeychain */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C4DA5E63FD6790206381EC6343B968C0 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				204D579291713CD49CF2185376AD9715 /* Pods-DataPersistence */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F5D202693D8683E2E50F40398E2500D3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A5685F63618FF4636EA8DD2BB834CC31 /* libPods-DataPersistence.a */,
-				B63E0FE1B8912C2AF270222375DA7E4A /* libSAMKeychain.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		83DED2F2425279FB386C451751ACEF48 /* Headers */ = {
+		8AC03A01757BC8569DEF3FEB4E23BA05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A30315F729007D6600A49C329B4B9910 /* Headers */ = {
+		D640BAD64F9C70B380EAB665023F770D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				516F5A3731BD90C7701163DB7F0896A4 /* SAMKeychain.h in Headers */,
-				39E8225AB579A3E3ACDF62FB44D605EA /* SAMKeychainQuery.h in Headers */,
+				736F4A0BC57F0E7B620521A742563009 /* HBCDataPersistence.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9998FBD7F8E36F0ECB53A62542F3FF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7BDF8F5B1E53B7943DBDC8D6353859 /* SAMKeychain.h in Headers */,
+				FD477EDFB72918C9FF88F4E7581F72CD /* SAMKeychainQuery.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		083BD4F50129F4C753B5904D28405C6B /* SAMKeychain */ = {
+		08CDF4D0533B8F1F2B8B12FFAD665786 /* HBCDataPersistence */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50B8B5F3880B013E45EAB3DF3A515A89 /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
+			buildConfigurationList = A1D73470F9347622DEB285D8EFB3945F /* Build configuration list for PBXNativeTarget "HBCDataPersistence" */;
 			buildPhases = (
-				A30315F729007D6600A49C329B4B9910 /* Headers */,
-				600BF136E248397E14FC7FFE5075CF07 /* Sources */,
-				80240A3946BD875B81B4AD6B8C65AC0C /* Frameworks */,
+				D640BAD64F9C70B380EAB665023F770D /* Headers */,
+				D4CF7D58F23D84BFFDA33E0FD7FD4687 /* Sources */,
+				9CF9FA58C4472C6EFBD41732BAF00CFD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07505C6CBE3C6EA0605C3DCBCEFD216B /* PBXTargetDependency */,
+			);
+			name = HBCDataPersistence;
+			productName = HBCDataPersistence;
+			productReference = 6D04A9166D0B00CBB1BB5A6CA0A26BA2 /* libHBCDataPersistence.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		92B8DD6250C2F7CBC7074F1F2971F71B /* SAMKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43BFBE6647327CE0043A219C8B47EA4 /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
+			buildPhases = (
+				F9998FBD7F8E36F0ECB53A62542F3FF9 /* Headers */,
+				1C0D00C35B9720601AFC7A398CD22ED4 /* Sources */,
+				F6CC9882215110C9E339CC4AF77F759F /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,25 +289,26 @@
 			);
 			name = SAMKeychain;
 			productName = SAMKeychain;
-			productReference = B63E0FE1B8912C2AF270222375DA7E4A /* libSAMKeychain.a */;
+			productReference = A239BF58837D9CE83ED0CB8491DC89C1 /* libSAMKeychain.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		5BAC538581E35C0B0F36F00395BC3DCE /* Pods-DataPersistence */ = {
+		D4F23B739064B875094FEEDEDF9DE4BC /* Pods-HBCDataPersistence */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35F81C6041FF44CFFB5BCF178AB8DAE7 /* Build configuration list for PBXNativeTarget "Pods-DataPersistence" */;
+			buildConfigurationList = 130E0EA118AD2905B0C08DB2385F2F91 /* Build configuration list for PBXNativeTarget "Pods-HBCDataPersistence" */;
 			buildPhases = (
-				83DED2F2425279FB386C451751ACEF48 /* Headers */,
-				FC18EC70D43B3E718DCF52CD29964F12 /* Sources */,
-				5C74693E265B11973C6EED666B7163AF /* Frameworks */,
+				8AC03A01757BC8569DEF3FEB4E23BA05 /* Headers */,
+				F4E08923FBB9EF008AC7EF0901D130F4 /* Sources */,
+				66DFD65125920390C0AA4BCB68FA706B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C066843A0E7F4F616ACD36D5BAE94493 /* PBXTargetDependency */,
+				A16556B837266CA2115523DFF88FA16B /* PBXTargetDependency */,
+				79F69E5373BC3F77019EC1D7185DAD7A /* PBXTargetDependency */,
 			);
-			name = "Pods-DataPersistence";
-			productName = "Pods-DataPersistence";
-			productReference = A5685F63618FF4636EA8DD2BB834CC31 /* libPods-DataPersistence.a */;
+			name = "Pods-HBCDataPersistence";
+			productName = "Pods-HBCDataPersistence";
+			productReference = 603FBA902F6F0688BE6AF5EFF6120EC6 /* libPods-HBCDataPersistence.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -245,50 +328,96 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F5D202693D8683E2E50F40398E2500D3 /* Products */;
+			productRefGroup = 113E0C240864C0544F3F53DB7F046597 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BAC538581E35C0B0F36F00395BC3DCE /* Pods-DataPersistence */,
-				083BD4F50129F4C753B5904D28405C6B /* SAMKeychain */,
+				08CDF4D0533B8F1F2B8B12FFAD665786 /* HBCDataPersistence */,
+				D4F23B739064B875094FEEDEDF9DE4BC /* Pods-HBCDataPersistence */,
+				92B8DD6250C2F7CBC7074F1F2971F71B /* SAMKeychain */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		600BF136E248397E14FC7FFE5075CF07 /* Sources */ = {
+		1C0D00C35B9720601AFC7A398CD22ED4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B57E51ABF4CE95BDB1CC02D7147231 /* SAMKeychain-dummy.m in Sources */,
-				66C7A474DF0DD0DA19C8D534C4FF99DC /* SAMKeychain.m in Sources */,
-				882DF2FB38923FBA319952FEF7B5C0E0 /* SAMKeychainQuery.m in Sources */,
+				8E1F1BFA597A8518DEF1626F78B11322 /* SAMKeychain-dummy.m in Sources */,
+				749F613D4994FA868D122E835F0E0E47 /* SAMKeychain.m in Sources */,
+				166FC8032B310BB7A953B36E89AB76F2 /* SAMKeychainQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC18EC70D43B3E718DCF52CD29964F12 /* Sources */ = {
+		D4CF7D58F23D84BFFDA33E0FD7FD4687 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4214DC07390DA2BDF66F22D3C9AB75E /* Pods-DataPersistence-dummy.m in Sources */,
+				FEBD6EBCF763FB23BDDEA8BCBF8D15EB /* HBCDataPersistence-dummy.m in Sources */,
+				55882D8F4CF805BF4E38D823EEE1F570 /* HBCDataPersistence.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E08923FBB9EF008AC7EF0901D130F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167EC2ED549D3642F7643401685F0329 /* Pods-HBCDataPersistence-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C066843A0E7F4F616ACD36D5BAE94493 /* PBXTargetDependency */ = {
+		07505C6CBE3C6EA0605C3DCBCEFD216B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAMKeychain;
-			target = 083BD4F50129F4C753B5904D28405C6B /* SAMKeychain */;
-			targetProxy = 9398A9DDCCC1F57D1BF9F2E57C85346C /* PBXContainerItemProxy */;
+			target = 92B8DD6250C2F7CBC7074F1F2971F71B /* SAMKeychain */;
+			targetProxy = C94A0DFD62E1021D6A465A3932149CDF /* PBXContainerItemProxy */;
+		};
+		79F69E5373BC3F77019EC1D7185DAD7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 92B8DD6250C2F7CBC7074F1F2971F71B /* SAMKeychain */;
+			targetProxy = 6F32194A7D7571554167A84D1F925C70 /* PBXContainerItemProxy */;
+		};
+		A16556B837266CA2115523DFF88FA16B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HBCDataPersistence;
+			target = 08CDF4D0533B8F1F2B8B12FFAD665786 /* HBCDataPersistence */;
+			targetProxy = 1F3E357207824CD3E26B78BE4D4EBA71 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		133C353AADED9ADFE571062869EA1B14 /* Release */ = {
+		12C08F80F1D45A9025F06A2FED8C4556 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76D8FF74E1C2585E906BD3D7893BEA9C /* Pods-DataPersistence.release.xcconfig */;
+			baseConfigurationReference = AC8E43779AC3191694700633811B9342 /* SAMKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		369F5F502C8B1C2281C7340ACFAB9BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA26ECD3BCE23D96D177B88C357FC8D /* Pods-HBCDataPersistence.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -308,25 +437,23 @@
 			};
 			name = Release;
 		};
-		5128FB38FEE6916EAB188A0A242AF97F /* Debug */ = {
+		52D99068BC5898A2E5B7C1332E15D1FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE2B3B53C752F1E236FE6CBB71C0A7BC /* SAMKeychain.xcconfig */;
+			baseConfigurationReference = C885190E84CE4DE49377A449F8B87ED0 /* Pods-HBCDataPersistence.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SAMKeychain;
-				PRODUCT_NAME = SAMKeychain;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -395,30 +522,9 @@
 			};
 			name = Debug;
 		};
-		667D2C0054FCB7011946BAA84EFE1980 /* Debug */ = {
+		614A4C1995A342858334AAAC72E14C78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DCF96419E973C3C41587E991EBD9B0C /* Pods-DataPersistence.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		91747E92A87234C8D727C5058FE8CDFD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE2B3B53C752F1E236FE6CBB71C0A7BC /* SAMKeychain.xcconfig */;
+			baseConfigurationReference = AC8E43779AC3191694700633811B9342 /* SAMKeychain.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -436,9 +542,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -499,9 +604,65 @@
 			};
 			name = Release;
 		};
+		E3FA89483F0938F30CBE0D5D38F956E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CC6C962892CFE53713610B34910A85 /* HBCDataPersistence.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HBCDataPersistence/HBCDataPersistence-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HBCDataPersistence;
+				PRODUCT_NAME = HBCDataPersistence;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3544945AB25DCA3DCBA74A0202A4E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CC6C962892CFE53713610B34910A85 /* HBCDataPersistence.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HBCDataPersistence/HBCDataPersistence-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HBCDataPersistence;
+				PRODUCT_NAME = HBCDataPersistence;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		130E0EA118AD2905B0C08DB2385F2F91 /* Build configuration list for PBXNativeTarget "Pods-HBCDataPersistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D99068BC5898A2E5B7C1332E15D1FE /* Debug */,
+				369F5F502C8B1C2281C7340ACFAB9BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -511,20 +672,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35F81C6041FF44CFFB5BCF178AB8DAE7 /* Build configuration list for PBXNativeTarget "Pods-DataPersistence" */ = {
+		A1D73470F9347622DEB285D8EFB3945F /* Build configuration list for PBXNativeTarget "HBCDataPersistence" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				667D2C0054FCB7011946BAA84EFE1980 /* Debug */,
-				133C353AADED9ADFE571062869EA1B14 /* Release */,
+				F3544945AB25DCA3DCBA74A0202A4E23 /* Debug */,
+				E3FA89483F0938F30CBE0D5D38F956E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50B8B5F3880B013E45EAB3DF3A515A89 /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
+		B43BFBE6647327CE0043A219C8B47EA4 /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5128FB38FEE6916EAB188A0A242AF97F /* Debug */,
-				91747E92A87234C8D727C5058FE8CDFD /* Release */,
+				614A4C1995A342858334AAAC72E14C78 /* Debug */,
+				12C08F80F1D45A9025F06A2FED8C4556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
